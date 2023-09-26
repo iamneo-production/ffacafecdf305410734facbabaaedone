@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Quiz.css"; // Import your CSS file
 
-function App() {
+function Quiz() {
   const [questions, setQuestions] = useState([
     {
       question: "What is the capital of France?",
@@ -108,4 +108,4 @@ function App() {
   );
 }
 
-export default App;
+export default Quiz;
